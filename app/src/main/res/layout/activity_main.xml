@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:textSize="20dp"
+        android:text="This app only connect to Wifi with:\nSSID: Hafizh\nKey: 12345678"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MULTIPLICATION"
+        android:paddingTop="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/input_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="first number">
+    </EditText>
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="second number">
+    </EditText>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="calculate"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>
